@@ -1,0 +1,42 @@
+.board {
+  border: 7px solid rgb(85, 0, 255);
+  outline: 5px solid rgb(255, 255, 255);
+  outline-offset: 1px;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.instructions__player {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.play-info {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 234, 255);
+  background-color: #00000088;
+}
+
+.button {
+  padding: 10px 30px;
+  margin: 20px auto 0;
+  font-size: 1.2rem;
+  font-family: 'Bungee', sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(245, 96, 96);
+  border-radius: 50px;
+
+}
